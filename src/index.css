@@ -1,0 +1,76 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+* {
+  /* margin : 0; */
+/* padding: 0; */
+  /* box-sizing: border-box; */
+}
+body{
+  /* background-color: #ffffff; */
+}
+.flexbox{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* max-width: 700px; */
+  height: 80vh;
+  overflow: hidden;
+  margin: 0 auto;
+  /* padding: 15px; */
+}
+
+.flexbox .form{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  max-width: 300px;
+  margin-top: 10px;
+  /* margin-left: 70px; */
+  /* background-color: #e6e6e6; */
+  padding: 15px;
+  
+}
+
+.flexbox .form .card{
+  padding: 15px 25px;
+  /* background-color: rgb(231, 187, 187); */
+  border: 1px solid rgba(.125,0,0,.125);
+  border-color: 2px black;
+
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.button{
+  display: flex;
+  /* padding: 50px; */
+  justify-content: center;
+
+}
+.form h2{
+  margin-bottom: 30px;
+}
+.name p{
+  display: flex;
+  margin-top: 100px;
+  margin-right: 100px;
+  
+  /* width: 50% */
+}
+.name1 p{
+  display: flex;
+  margin-top: 100px;
+  margin-right: 100px;
+  
+  /* width: 50% */
+}
